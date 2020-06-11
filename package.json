@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "@livestd/react-router-utils",
+  "version": "1.0.0",
+  "description": "Utils and hooks for react-router",
+  "main": "build/index.js",
+  "keywords": [
+    "react",
+    "router-hooks",
+    "reqct-query"
+  ],
+  "author": "Dmitry Rtishchev @livestd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livestd/react-router-utils.git"
+  },
+  "homepage": "https://github.com/livestd/react-router-utils#readme",
+  "bugs": {
+    "url": "https://github.com/livestd/react-router-utils/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-router": "^5.1.7",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "query-string": "^6.13.1"
+  }
+}
